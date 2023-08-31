@@ -1,5 +1,7 @@
-import { testDatabase } from '@libs/database';
+import { bootstrap } from '@libs/nestjs';
+import { AppModule } from './app.module';
 
-console.log('Hello World!');
-
-testDatabase();
+bootstrap({
+  module: AppModule,
+  port: 3000,
+});
