@@ -1,7 +1,9 @@
 {
   "pipeline": {
     "build": {
-      "cache": false
+      "cache": false,
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
     },
     "start": {
       "cache": false

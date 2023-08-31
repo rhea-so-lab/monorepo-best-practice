@@ -4,10 +4,11 @@
     "libs/*"
   ],
   "scripts": {
-    "build": "npx turbo build",
-    "start": "npx turbo start"
+    "build": "turbo build",
+    "start": "turbo start"
   },
   "devDependencies": {
+    "turbo": "1.10.13",
     "typescript": "5.2.2"
   }
 }
