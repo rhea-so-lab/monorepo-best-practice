@@ -1,0 +1,13 @@
+{
+  "pipeline": {
+    "build": {
+      "cache": false
+    },
+    "start": {
+      "cache": false
+    },
+    "test": {
+      "cache": false
+    }
+  }
+}

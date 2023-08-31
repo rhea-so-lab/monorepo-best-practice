@@ -1,0 +1,13 @@
+{
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "scripts": {
+    "build": "npx turbo build",
+    "start": "npx turbo start"
+  },
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
+}

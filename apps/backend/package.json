@@ -1,0 +1,7 @@
+{
+  "name": "@apps/backend",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@libs/database",
+  "scripts": {
+    "build": "tsc"
+  }
+}
