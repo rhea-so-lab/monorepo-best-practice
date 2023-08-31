@@ -7,7 +7,7 @@
     "build": "turbo build",
     "start": "turbo start"
   },
-  "devDependencies": {
+  "dependencies": {
     "turbo": "1.10.13",
     "typescript": "5.2.2"
   }

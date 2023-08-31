@@ -1,6 +1,7 @@
 {
   "name": "@libs/database",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc --declaration"
   }
 }
