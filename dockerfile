@@ -16,7 +16,7 @@ RUN apk add --no-cache tzdata && \
   echo "Asia/Seoul" > /etc/timezone && \
   apk del tzdata
 COPY --from=EXPORT /export/out .
-RUN npm ci --production
+RUN npm ci --omit=dev
 RUN npm run build
 WORKDIR /app/apps/$APP_NAME
 RUN chmod +x ./entrypoint.sh

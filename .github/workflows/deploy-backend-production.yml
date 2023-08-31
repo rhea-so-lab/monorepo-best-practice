@@ -8,6 +8,8 @@ on:
     paths:
       - apps/backend/**
       - libs/**
+      - package-lock.json
+      - dockerfile
 
 jobs:
   deploy-backend-production:
