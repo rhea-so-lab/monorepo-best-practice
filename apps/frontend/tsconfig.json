@@ -1,5 +1,10 @@
 {
   "extends": "@libs/config/typescript/frontend.json",
-  "compilerOptions": { "rootDir": "./src", "outDir": "./dist" },
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@src/*": ["*"]
+    }
+  },
   "exclude": ["node_modules", "dist"]
 }

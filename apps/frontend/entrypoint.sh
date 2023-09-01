@@ -1,2 +1,2 @@
 #!/bin/sh
-node dist/main
+node server.js
